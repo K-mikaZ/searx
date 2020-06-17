@@ -83,7 +83,7 @@ Global Settings
   blank.
 
 ``default_theme`` :
-  Name of the theme you want to use by default on you searx instance.
+  Name of the theme you want to use by default on your searx instance.
 
 ``useragent_suffix`` :
   Suffix to the user-agent searx uses to send requests to others engines.  If an
@@ -93,7 +93,7 @@ Global Settings
   Allow your instance of searx of being able to proxy images.  Uses memory space.
 
 ``default_locale`` :
-  Aearx interface language.  If blank, the locale is detected by using the
+  Searx interface language.  If blank, the locale is detected by using the
   browser language.  If it doesn't work, or you are deploying a language
   specific instance of searx, a locale can be defined using an ISO language
   code, like ``fr``, ``en``, ``de``.
@@ -135,7 +135,7 @@ Engine settings
      language : en_US
 
 ``name`` :
-  Name that will be used accross searx to define this engine.  In settings, on
+  Name that will be used across searx to define this engine.  In settings, on
   the result page...
 
 ``engine`` :
@@ -146,7 +146,7 @@ Engine settings
   Code used to execute bang requests (in this case using ``!bi`` or ``?bi``)
 
 ``base_url`` : optional
-  Part of the URL that should be stable accross every request.  Can be useful to
+  Part of the URL that should be stable across every request.  Can be useful to
   use multiple sites using only one engine, or updating the site URL without
   touching at the code.
 
@@ -164,7 +164,7 @@ Engine settings
   is described in the file.
 
 ``disabled`` : optional
-  To disable by default the engine, but not deleting it. It will allow the user
+  To disable by default the engine, but not deleting it.  It will allow the user
   to manually activate it in the settings.
 
 ``language`` : optional
